@@ -1,0 +1,16 @@
+{
+  "name": "2.4-qr-code-project",
+  "version": "1.0.0",
+  "description": "A file that takes in an url and returns a qr-code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elias Xu",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.10",
+    "qr-image": "^3.2.0"
+  }
+}
