@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend Warrior</title>
+</head>
+<body>
+    <% 
+    const d = new Date();
+    if (d.getDay() == 0 | d.getDay() == 6) {
+        return "<h1> Hey! It's the weekend! Have Fun!</h1>";
+    } else {
+        return "<h1> Hey! It's a weekday. Get to work! </h1>" ;
+    }
+        %> 
+    
+</body>
+</html>
